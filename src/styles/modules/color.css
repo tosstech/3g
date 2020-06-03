@@ -1,0 +1,28 @@
+/* LESS Document */
+/*配色*/
+/*背景色*/
+/*主题色*/
+/*强调色*/
+/*字体颜色*/
+/*配色*/
+a:link {
+  color: #d3d0cb;
+  text-decoration: none;
+}
+a:visited {
+  color: #d3d0cb;
+  text-decoration: none;
+}
+a:hover {
+  color: #d3d0cb;
+  text-decoration: none;
+}
+a:active {
+  color: #d3d0cb;
+  text-decoration: none;
+}
+/*字体*/
+h1 {
+  font-size: 1.2em;
+  text-align: center;
+}

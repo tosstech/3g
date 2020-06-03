@@ -1,0 +1,36 @@
+@import 'color.less';
+  
+  html body{
+    background:@bg_color;
+  }
+  
+  
+  .end{
+   margin-right: 0 !important;
+  }
+  
+  .clear{
+    clear: both;
+  }
+  
+  /*流布局均等排列 */
+  .row(@gap){
+    width: 100%-2*@gap;
+    margin: 0 @gap;
+  }
+  
+  .row_span(@span_num;@span_gap){
+    width: (100%-(@span_num - 1)*@span_gap)/@span_num;
+    margin-right: @span_gap;
+    float: left;
+  }
+  /*流布局均等排列 */
+  
+  /*流布局元素排列 */
+  .row_cols(@cols_width;@cols_num;@cols_gap){
+    @cols_ele: (100%-(@cols_num - 1)*@cols_gap)/ 10;
+    width: @cols_width * @cols_ele;
+    margin-right:@cols_gap;
+    float: left;
+  }
+  /*流布局元素排列 */
