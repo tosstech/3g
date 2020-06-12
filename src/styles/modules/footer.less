@@ -8,11 +8,67 @@
 
 	footer{
     width: 100%;
-    background: lighten(@bg_color,20%);
     position: fixed;
     bottom: 0;
+    color: @text_color;
     li{
       .row_span(5,0);
+      background: @bg_color;
+      text-align: center;
+      .footer-icon{
+        width: 2em;
+        height: 2em;
+        color: @text_color;
+      }
+      .footer_icon_big{
+        color: @main_color;
+      }
+    }
+
+    .footer_bt{
+      height: 70%;
+      margin-top: 20%;
+      padding: 10% 0 5% 0;
+      background: darken(@bg_color,10%);
+    }
+
+    .footer_bt_2{
+      border-radius: 0 1em 0 0;
+    }
+
+    .footer_bt_4{
+      border-radius: 1em 0em 0 0;
+    }
+
+    .footer_bt_active{
+      color: @main_color;
+      .footer-icon{
+        color: @main_color;
+      }
+    }
+
+    .footer_txt{
+      font-size: 0.5em;
+    }
+
+    .li_3{
+      background:  darken(@bg_color,10%);
+    }
+
+    .footer_live{
+      width: 100%;
+      height: 90%;
+      background: @bg_color;
+      border-radius:0 0 50% 50%;
+      padding-top: 10%;
+    }
+
+    .footer_live_bt{
+      width: 80%;
+      height: 91%;
+      margin: 0 10%;
+      border-radius:50%;
+      background:  darken(@bg_color,10%);
     }
   }
 
